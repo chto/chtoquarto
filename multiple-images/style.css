@@ -120,12 +120,12 @@ html{
 }
 @keyframes animShootingStar {
   from {
-    transform: translateY(0px) translateX(-1500px) rotate(45deg);
+    transform: translateY(0px) translateX(-1500px) rotate(55deg);
     opacity: 1;
     height: 5px;
   }
   to {
-    transform: translateY(-1500px) translateX(0px) rotate(45deg);
+    transform: translateY(-866.025px) translateX(0px) rotate(55deg);
     opacity: 1;
     height: 800px;
   }
