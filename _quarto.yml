@@ -1,6 +1,0 @@
-project:
-  type: website
-  output-dir: docs
-  render:
-    - "*.{qmd,R,py}"
-    - "!utils.py"
