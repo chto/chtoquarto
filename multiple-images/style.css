@@ -107,7 +107,7 @@ html{
   bottom: 0;
   right: 0;
   background: linear-gradient(to top, rgba(255, 255, 255, 0), white);
-  animation: animShootingStar 10s linear infinite;
+  animation: animShootingStar 8s linear infinite;
 }
 
 @keyframes animStar {
@@ -120,12 +120,12 @@ html{
 }
 @keyframes animShootingStar {
   from {
-    transform: translateY(0px) translateX(0px) rotate(45deg);
+    transform: translateY(0px) translateX(-1500px) rotate(45deg);
     opacity: 1;
     height: 5px;
   }
   to {
-    transform: translateY(-2560px) translateX(2560px) rotate(45deg);
+    transform: translateY(-1500px) translateX(0px) rotate(45deg);
     opacity: 1;
     height: 800px;
   }
