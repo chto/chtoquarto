@@ -6,4 +6,4 @@ format:
 preload-iframes: true
 ---
 
-# {background-iframe="multiple-images/index.html"}
+# {background-iframe="../multiple-images/index.html"}
